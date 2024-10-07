@@ -1,0 +1,14 @@
+<? xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="app.messages" level="INFO">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+</configuration>
+
